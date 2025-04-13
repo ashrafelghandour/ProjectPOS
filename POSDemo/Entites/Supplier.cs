@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace POSDemo.DB.Entites;
+namespace POSDemo.Entites;
 
-public partial class Custmer
+public partial class Supplier
 {
     public int Id { get; set; }
 

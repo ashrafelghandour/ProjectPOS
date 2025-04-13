@@ -7,8 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
+using POSDemo.Data;
 using POSDemo.Properties;
 
 namespace POSDemo.Screens
@@ -68,7 +67,23 @@ namespace POSDemo.Screens
         }
         private void frmProduct_Load(object sender, EventArgs e)
         {
+            // comboBox1.DataSource =  new AppDbContext().Productclassifications.Select(a => new[]{ a.Categoryname});
 
+
+
+            using (AppDbContext dbContext = new AppDbContext())
+            {
+
+                var re = new AppDbContext().Productclassifications;
+                foreach (var item in re)
+                {
+
+                    comboBox1.Items.Add(item.Categoryname);
+                }
+
+                comboBox1.TabIndex = 0;
+
+            }
         }
 
         private void btClose_Click(object sender, EventArgs e)
@@ -83,9 +98,6 @@ namespace POSDemo.Screens
 
         private byte[]? _GetPhoto()
         {
-            //    Resources.Female_512;
-
-            //    Resources._1077012;
 
 
             if (pbPersonImage.Image != null)
@@ -99,7 +111,7 @@ namespace POSDemo.Screens
 
         private void btSave_Click(object sender, EventArgs e)
         {
-            if (!this.ValidateChildren())
+            if (!this.ValidateChildren() || string.IsNullOrEmpty(comboBox1.Text))
             {
                 //Here we dont continue becuase the form is not valid
                 MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -112,15 +124,19 @@ namespace POSDemo.Screens
                 using (AppDbContext context = new AppDbContext())
                 {
 
+                    var rr = context.Productclassifications.SingleOrDefault(p => p.Categoryname == comboBox1.Text).Id;
 
-                    Product product = new Product
+
+                    Entites.Product product = new POSDemo.Entites.Product
                     {
                         Code = Convert.ToInt32(tbBarcode.Text),
                         Name = tbNamePtod.Text,
                         Price = Convert.ToInt32(tbPrice.Text),
                         Quantity = Convert.ToInt32(tbquantity.Text),
                         Note = tbNote.Text,
-                        Image = _GetPhoto()
+                        ClassesProduct = rr,
+                         Image = _GetPhoto(),
+
                     };
 
 
@@ -159,6 +175,11 @@ namespace POSDemo.Screens
         {
             pbPersonImage.ImageLocation = null;
             pbPersonImage.Image = null;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

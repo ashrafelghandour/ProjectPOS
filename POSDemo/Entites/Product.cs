@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace POSDemo.DB.Entites;
+namespace POSDemo.Entites;
 
 public partial class Product
 {
@@ -18,4 +18,10 @@ public partial class Product
     public string Note { get; set; } = null!;
 
     public byte[]? Image { get; set; }
+
+    public int ClassesProduct { get; set; }
+
+    public virtual Productclassification ClassesProductNavigation { get; set; } = null!;
+
+    public virtual ICollection<SelesBillDetill> SelesBillDetills { get; set; } = new List<SelesBillDetill>();
 }

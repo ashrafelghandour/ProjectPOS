@@ -8,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
+using POSDemo.Data;
+using POSDemo.Entites;
 using Syncfusion.XlsIO.Implementation.Security;
 
 namespace POSDemo.Screens.Customer

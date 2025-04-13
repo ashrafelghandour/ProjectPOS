@@ -59,6 +59,10 @@
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
             pictureBox9 = new PictureBox();
+            comboBox1 = new ComboBox();
+            label7 = new Label();
+            label8 = new Label();
+            comboBox2 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -301,7 +305,7 @@
             pbPersonImage.BackgroundImageLayout = ImageLayout.Zoom;
             pbPersonImage.BorderStyle = BorderStyle.Fixed3D;
             pbPersonImage.InitialImage = null;
-            pbPersonImage.Location = new Point(942, 388);
+            pbPersonImage.Location = new Point(955, 423);
             pbPersonImage.Margin = new Padding(5, 6, 5, 6);
             pbPersonImage.Name = "pbPersonImage";
             pbPersonImage.Size = new Size(129, 76);
@@ -414,6 +418,49 @@
             pictureBox9.TabIndex = 183;
             pictureBox9.TabStop = false;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(942, 391);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(129, 23);
+            comboBox1.TabIndex = 184;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(793, 397);
+            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(124, 17);
+            label7.TabIndex = 185;
+            label7.Text = "Category Product :";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(428, 49);
+            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(124, 17);
+            label8.TabIndex = 187;
+            label8.Text = "Category Product :";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(577, 43);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(129, 23);
+            comboBox2.TabIndex = 186;
+            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+            // 
             // frmProducts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -421,6 +468,10 @@
             BackgroundImage = Properties.Resources.dfg;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1077, 752);
+            Controls.Add(label8);
+            Controls.Add(comboBox2);
+            Controls.Add(label7);
+            Controls.Add(comboBox1);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
@@ -502,5 +553,9 @@
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
+        private ComboBox comboBox1;
+        private Label label7;
+        private Label label8;
+        private ComboBox comboBox2;
     }
 }

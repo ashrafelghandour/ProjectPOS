@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using POSDemo.Screens.Customer;
+using POSDemo.Screens.Suplier;
 
 namespace POSDemo.Screens
 {
@@ -51,6 +52,25 @@ namespace POSDemo.Screens
         {
             frmCustomer frmCustomer = new frmCustomer();
             frmCustomer.ShowDialog();
+        }
+
+        private void listSuppliersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSupplier frmSupplier = new frmSupplier();
+            frmSupplier.ShowDialog();
+        }
+
+        private void addNewSupplierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAddNewSupplier form = new frmAddNewSupplier();
+            form.ShowDialog();
+
+        }
+
+        private void newBillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSelesBill frm = new frmSelesBill();
+            frm.ShowDialog();
         }
     }
 }

@@ -48,9 +48,15 @@
             addCustomerToolStripMenuItem = new ToolStripMenuItem();
             manageCustomerToolStripMenuItem = new ToolStripMenuItem();
             listCustomerToolStripMenuItem = new ToolStripMenuItem();
+            supplierToolStripMenuItem = new ToolStripMenuItem();
+            addNewSupplierToolStripMenuItem = new ToolStripMenuItem();
+            manageSuppliersToolStripMenuItem = new ToolStripMenuItem();
+            listSuppliersToolStripMenuItem = new ToolStripMenuItem();
             priToolStripMenuItem = new ToolStripMenuItem();
             acountSettingsToolStripMenuItem = new ToolStripMenuItem();
             logOutToolStripMenuItem = new ToolStripMenuItem();
+            selesToolStripMenuItem = new ToolStripMenuItem();
+            newBillToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -88,7 +94,7 @@
             // menuStrip1
             // 
             menuStrip1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem2, usersToolStripMenuItem, productsToolStripMenuItem, customerToolStripMenuItem, priToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem2, usersToolStripMenuItem, productsToolStripMenuItem, customerToolStripMenuItem, supplierToolStripMenuItem, priToolStripMenuItem, selesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(869, 38);
@@ -191,6 +197,33 @@
             listCustomerToolStripMenuItem.Text = "List Customer";
             listCustomerToolStripMenuItem.Click += listCustomerToolStripMenuItem_Click;
             // 
+            // supplierToolStripMenuItem
+            // 
+            supplierToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addNewSupplierToolStripMenuItem, manageSuppliersToolStripMenuItem, listSuppliersToolStripMenuItem });
+            supplierToolStripMenuItem.Name = "supplierToolStripMenuItem";
+            supplierToolStripMenuItem.Size = new Size(106, 34);
+            supplierToolStripMenuItem.Text = "Supplier";
+            // 
+            // addNewSupplierToolStripMenuItem
+            // 
+            addNewSupplierToolStripMenuItem.Name = "addNewSupplierToolStripMenuItem";
+            addNewSupplierToolStripMenuItem.Size = new Size(263, 34);
+            addNewSupplierToolStripMenuItem.Text = "Add New Supplier";
+            addNewSupplierToolStripMenuItem.Click += addNewSupplierToolStripMenuItem_Click;
+            // 
+            // manageSuppliersToolStripMenuItem
+            // 
+            manageSuppliersToolStripMenuItem.Name = "manageSuppliersToolStripMenuItem";
+            manageSuppliersToolStripMenuItem.Size = new Size(263, 34);
+            manageSuppliersToolStripMenuItem.Text = "Manage Suppliers";
+            // 
+            // listSuppliersToolStripMenuItem
+            // 
+            listSuppliersToolStripMenuItem.Name = "listSuppliersToolStripMenuItem";
+            listSuppliersToolStripMenuItem.Size = new Size(263, 34);
+            listSuppliersToolStripMenuItem.Text = "List Suppliers";
+            listSuppliersToolStripMenuItem.Click += listSuppliersToolStripMenuItem_Click;
+            // 
             // priToolStripMenuItem
             // 
             priToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { acountSettingsToolStripMenuItem, logOutToolStripMenuItem });
@@ -213,6 +246,20 @@
             logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             logOutToolStripMenuItem.Size = new Size(252, 34);
             logOutToolStripMenuItem.Text = "sign_out ";
+            // 
+            // selesToolStripMenuItem
+            // 
+            selesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newBillToolStripMenuItem });
+            selesToolStripMenuItem.Name = "selesToolStripMenuItem";
+            selesToolStripMenuItem.Size = new Size(74, 34);
+            selesToolStripMenuItem.Text = "Seles";
+            // 
+            // newBillToolStripMenuItem
+            // 
+            newBillToolStripMenuItem.Name = "newBillToolStripMenuItem";
+            newBillToolStripMenuItem.Size = new Size(180, 34);
+            newBillToolStripMenuItem.Text = "new Bill";
+            newBillToolStripMenuItem.Click += newBillToolStripMenuItem_Click;
             // 
             // MainForm
             // 
@@ -258,5 +305,11 @@
         private ToolStripMenuItem addCustomerToolStripMenuItem;
         private ToolStripMenuItem manageCustomerToolStripMenuItem;
         private ToolStripMenuItem listCustomerToolStripMenuItem;
+        private ToolStripMenuItem supplierToolStripMenuItem;
+        private ToolStripMenuItem addNewSupplierToolStripMenuItem;
+        private ToolStripMenuItem manageSuppliersToolStripMenuItem;
+        private ToolStripMenuItem listSuppliersToolStripMenuItem;
+        private ToolStripMenuItem selesToolStripMenuItem;
+        private ToolStripMenuItem newBillToolStripMenuItem;
     }
 }

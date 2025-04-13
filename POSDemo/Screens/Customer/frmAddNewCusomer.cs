@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
+using POSDemo.Data;
+using POSDemo.Entites;
 
 namespace POSDemo.Screens.Customer
 {
@@ -134,18 +134,22 @@ namespace POSDemo.Screens.Customer
             {
                 using (AppDbContext context = new AppDbContext())
                 {
-
+                    if (context.Custmers.Any(s => s.Phone == Phone.Text && s.Name == tbName.Text))
+                    {
+                        MessageBox.Show("this Custmer is exthist", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
 
                     Custmer custmer = new Custmer
                     {
-                        Phone = tbName.Text,
-                        Name =tbName.Text,
+                        Phone = Phone.Text,
+                        Name  = tbName.Text,
                         Address = tbAddress.Text,
-                        Company =tbCompany.Text,
-                        Note = tbNote.Text,
-                        Image = clsGlobal.GetPhoto(pbPersonImage),
-                        Email = tbEmail.Text,
-                        IsActive = ChbisActive.Checked
+                        Company = tbCompany.Text,
+                        Note    = tbNote.Text,
+                        Image   = clsGlobal.GetPhoto(pbPersonImage),
+                        Email   = tbEmail.Text,
+                        IsActive= ChbisActive.Checked
                     };
 
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace POSDemo.DB.Entites;
+namespace POSDemo.Entites;
 
 public partial class User
 {
@@ -12,4 +12,6 @@ public partial class User
     public string Password { get; set; } = null!;
 
     public byte[]? Image { get; set; }
+
+    public virtual ICollection<SelesBill> SelesBills { get; set; } = new List<SelesBill>();
 }

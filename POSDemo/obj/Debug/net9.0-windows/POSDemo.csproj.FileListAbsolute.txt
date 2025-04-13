@@ -157,3 +157,8 @@ E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.frmAddPro
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.frmProducts.resources
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Customer.frmCustomer.resources
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Customer.frmAddNewCusomer.resources
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.sourcelink.json
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Suplier.frmAddNewSupplier.resources
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Suplier.frmSupplier.resources
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Product.frmClassProduct.resources
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.frmSelesBill.resources

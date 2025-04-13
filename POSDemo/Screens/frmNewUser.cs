@@ -8,8 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
+using POSDemo.Data;
+using POSDemo.Entites;
 using POSDemo.Properties;
 using Syncfusion.CompoundFile.XlsIO.Native;
 

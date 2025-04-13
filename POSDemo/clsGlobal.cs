@@ -2,8 +2,7 @@
 
 using System.Security.Cryptography;
 using System.Text;
-using POSDemo.DB.Entites;
-
+using POSDemo.Entites;
 
 internal static  class clsGlobal
     {

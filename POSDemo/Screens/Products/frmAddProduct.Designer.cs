@@ -54,6 +54,8 @@
             errorProvider1 = new ErrorProvider(components);
             llSetImage = new LinkLabel();
             llRemoveImage = new LinkLabel();
+            label7 = new Label();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -118,7 +120,7 @@
             // 
             btClose.BackColor = Color.Transparent;
             btClose.Image = (Image)resources.GetObject("btClose.Image");
-            btClose.Location = new Point(369, 262);
+            btClose.Location = new Point(369, 292);
             btClose.Name = "btClose";
             btClose.Size = new Size(86, 32);
             btClose.TabIndex = 145;
@@ -132,7 +134,7 @@
             btSave.BackColor = Color.Transparent;
             btSave.Image = (Image)resources.GetObject("btSave.Image");
             btSave.ImageAlign = ContentAlignment.MiddleLeft;
-            btSave.Location = new Point(461, 262);
+            btSave.Location = new Point(474, 292);
             btSave.Name = "btSave";
             btSave.Size = new Size(86, 32);
             btSave.TabIndex = 144;
@@ -147,7 +149,7 @@
             pbPersonImage.BackgroundImageLayout = ImageLayout.Zoom;
             pbPersonImage.BorderStyle = BorderStyle.Fixed3D;
             pbPersonImage.InitialImage = null;
-            pbPersonImage.Location = new Point(162, 248);
+            pbPersonImage.Location = new Point(162, 247);
             pbPersonImage.Margin = new Padding(5, 6, 5, 6);
             pbPersonImage.Name = "pbPersonImage";
             pbPersonImage.Size = new Size(129, 76);
@@ -336,6 +338,28 @@
             llRemoveImage.Text = "Remove";
             llRemoveImage.LinkClicked += llRemoveImage_LinkClicked;
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(287, 247);
+            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(124, 17);
+            label7.TabIndex = 160;
+            label7.Text = "Category Product :";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(418, 246);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(129, 23);
+            comboBox1.TabIndex = 161;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
             // frmAddProduct
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -343,6 +367,8 @@
             BackgroundImage = Properties.Resources.dfg;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(623, 339);
+            Controls.Add(comboBox1);
+            Controls.Add(label7);
             Controls.Add(pictureBox6);
             Controls.Add(tbNote);
             Controls.Add(label6);
@@ -408,5 +434,7 @@
         private ErrorProvider errorProvider1;
         public LinkLabel llRemoveImage;
         public LinkLabel llSetImage;
+        private Label label7;
+        private ComboBox comboBox1;
     }
 }

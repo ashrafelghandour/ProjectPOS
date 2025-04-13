@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
-using Syncfusion.XlsIO.Implementation.Security;
+using POSDemo.Data;
+
+
 
 namespace POSDemo.Screens
 {
@@ -28,6 +22,12 @@ namespace POSDemo.Screens
             using (AppDbContext dbContext = new AppDbContext())
             {
 
+                var re = new AppDbContext().Productclassifications;
+                foreach (var item in re) {
+                     
+                    comboBox1.Items.Add(item.Categoryname);
+                    comboBox2.Items.Add(item.Categoryname);
+                }
 
                 dataGridView1.DataSource = dbContext.Products.ToArray();
 
@@ -106,7 +106,9 @@ namespace POSDemo.Screens
                 {
                     int productid = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
 
-                    Product? product = dbContext.Products.SingleOrDefault(p => p.Id == productid);
+                    Entites.Product? product = dbContext.Products.Include(p => p.ClassesProductNavigation).SingleOrDefault(p => p.Id == productid);
+
+             //       comboBox1.Text = new AppDbContext().Productclassifications.SingleOrDefault(p=> p.);
 
 
                     if (product != null)
@@ -116,7 +118,7 @@ namespace POSDemo.Screens
                         tbNote.Text = product.Note;
                         tbPrice.Text = product.Price.ToString();
                         tbquantity.Text = product.Quantity.ToString();
-
+                        comboBox1.Text = product.ClassesProductNavigation.Categoryname;
                         if (product.Image != null)
                         {
                             MemoryStream stream = new MemoryStream(product.Image!);
@@ -151,7 +153,7 @@ namespace POSDemo.Screens
                 {
                     int productid = Convert.ToInt32(dataGridView1.CurrentRow!.Cells[0].Value);
 
-                    Product? product = context.Products.SingleOrDefault(p => p.Id == productid);
+                    Entites.Product? product = context.Products.SingleOrDefault(p => p.Id == productid);
 
 
                     product.Code = Convert.ToInt32(tbBarcode.Text);
@@ -209,7 +211,8 @@ namespace POSDemo.Screens
             try
             {
                 var result = MessageBox.Show("you need delete Product", "Delete", MessageBoxButtons.YesNoCancel);
-                if (result == DialogResult.Yes) {
+                if (result == DialogResult.Yes)
+                {
 
                     using (AppDbContext context = new AppDbContext())
                     {
@@ -224,7 +227,7 @@ namespace POSDemo.Screens
 
                         dataGridView1.DataSource = context.Products.ToArray();
 
-                    } 
+                    }
                 }
             }
             catch (Exception ex)
@@ -240,6 +243,12 @@ namespace POSDemo.Screens
             frmAddProduct frmAddProduct
                 = new frmAddProduct();
             frmAddProduct.ShowDialog();
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = new AppDbContext().Products.Include(p=> p.ClassesProductNavigation).Where(p => p.ClassesProductNavigation.Categoryname == comboBox2.Text).ToList();
+
         }
     }
 }

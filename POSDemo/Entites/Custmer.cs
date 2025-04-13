@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace POSDemo.DB.Entites;
+namespace POSDemo.Entites;
 
-public partial class Supplier
+public partial class Custmer
 {
     public int Id { get; set; }
 
@@ -22,4 +22,6 @@ public partial class Supplier
     public bool? IsActive { get; set; }
 
     public byte[]? Image { get; set; }
+
+    public virtual ICollection<SelesBill> SelesBills { get; set; } = new List<SelesBill>();
 }

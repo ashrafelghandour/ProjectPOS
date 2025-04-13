@@ -1,9 +1,9 @@
 using System;
-using POSDemo.DB.Data;
-using POSDemo.DB.Entites;
 using POSDemo.Screens;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using Syncfusion.Windows.Forms;
+using POSDemo.Data;
+using POSDemo.Entites;
 
 namespace POSDemo
 {
