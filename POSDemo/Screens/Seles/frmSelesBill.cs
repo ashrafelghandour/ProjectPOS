@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using POSDemo.Data;
 using POSDemo.Entites;
 using POSDemo.Properties;
+using POSDemo.Screens.Seles;
 
 namespace POSDemo.Screens
 {
@@ -250,6 +251,7 @@ namespace POSDemo.Screens
                     tbBillid.Text = billDetills.BillId.ToString();
                     MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                    
                 }
             }
             catch (Exception ex)
@@ -294,6 +296,12 @@ namespace POSDemo.Screens
             llTotalprice.Text = _totalprice.ToString();
             ttTotalafterdiscount.Text = (_totalprice - disc).ToString();
 
+        }
+
+        private void btallbills_Click(object sender, EventArgs e)
+        {
+            frmSelesBills frmSelesBills = new frmSelesBills();
+            frmSelesBills.ShowDialog();
         }
     }
 

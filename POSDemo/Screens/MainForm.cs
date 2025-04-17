@@ -8,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using POSDemo.Screens.Customer;
+using POSDemo.Screens.Seles;
 using POSDemo.Screens.Suplier;
+using POSDemo.Scren;
 
 namespace POSDemo.Screens
 {
@@ -71,6 +73,25 @@ namespace POSDemo.Screens
         {
             frmSelesBill frm = new frmSelesBill();
             frm.ShowDialog();
+        }
+
+        private void allBillsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSelesBills frm = new frmSelesBills();
+            frm.ShowDialog();
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login login = new Login();
+            login.ShowDialog();
+        }
+
+        private void addNewUserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNewUser frmNewUser = new frmNewUser();
+            frmNewUser.ShowDialog();
         }
     }
 }

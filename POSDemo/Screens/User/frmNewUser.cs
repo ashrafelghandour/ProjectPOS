@@ -18,7 +18,7 @@ namespace POSDemo.Scren
     public partial class frmNewUser : Form
     {
         public frmNewUser()
-        {  
+        {
             InitializeComponent();
             llRemoveImage.Visible = false;
             pbPersonImage.ImageLocation = null;
@@ -30,32 +30,36 @@ namespace POSDemo.Scren
 
 
 
-            if (pbPersonImage.ImageLocation != null )
+            if (pbPersonImage.ImageLocation != null)
             {
                 MemoryStream stream = new MemoryStream();
                 pbPersonImage.Image.Save(stream, pbPersonImage.Image.RawFormat);
                 return stream.GetBuffer();
             }
-             return null;
+            return null;
         }
         private void btSave_Click(object sender, EventArgs e)
         {
 
-          
 
-            if (tbUserName.Text != null && tbpassw.Text != null) { 
-            
-               User newuser = new User { Password = tbpassw.Text,
-                                        UserName = tbUserName.Text , 
-                                         Image = GetPhoto()!
-               };
 
-                using (AppDbContext dbContext = new AppDbContext()) { 
-                
+            if (tbUserName.Text != null && tbpassw.Text != null)
+            {
 
-                  dbContext.Users.Add(newuser);
+                User newuser = new User
+                {
+                    Password = tbpassw.Text,
+                    UserName = tbUserName.Text,
+                    Image = GetPhoto()!
+                };
+
+                using (AppDbContext dbContext = new AppDbContext())
+                {
+
+
+                    dbContext.Users.Add(newuser);
                     dbContext.SaveChanges();
-                 
+
                 }
 
                 MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -102,6 +106,11 @@ namespace POSDemo.Scren
                 llRemoveImage.Visible = true;
                 // ...
             }
+        }
+
+        private void frmNewUser_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

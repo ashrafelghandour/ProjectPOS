@@ -162,3 +162,4 @@ E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Suplier.f
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Suplier.frmSupplier.resources
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Product.frmClassProduct.resources
 E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.frmSelesBill.resources
+E:\ProjectPOS\POSDemo\POSDemo\obj\Debug\net9.0-windows\POSDemo.Screens.Seles.frmSelesBills.resources

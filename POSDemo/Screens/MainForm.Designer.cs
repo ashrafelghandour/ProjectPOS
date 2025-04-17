@@ -52,11 +52,13 @@
             addNewSupplierToolStripMenuItem = new ToolStripMenuItem();
             manageSuppliersToolStripMenuItem = new ToolStripMenuItem();
             listSuppliersToolStripMenuItem = new ToolStripMenuItem();
+            selesToolStripMenuItem = new ToolStripMenuItem();
+            newBillToolStripMenuItem = new ToolStripMenuItem();
+            allBillsToolStripMenuItem = new ToolStripMenuItem();
             priToolStripMenuItem = new ToolStripMenuItem();
             acountSettingsToolStripMenuItem = new ToolStripMenuItem();
             logOutToolStripMenuItem = new ToolStripMenuItem();
-            selesToolStripMenuItem = new ToolStripMenuItem();
-            newBillToolStripMenuItem = new ToolStripMenuItem();
+            addNewUserToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -94,7 +96,7 @@
             // menuStrip1
             // 
             menuStrip1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem2, usersToolStripMenuItem, productsToolStripMenuItem, customerToolStripMenuItem, supplierToolStripMenuItem, priToolStripMenuItem, selesToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem2, usersToolStripMenuItem, productsToolStripMenuItem, customerToolStripMenuItem, supplierToolStripMenuItem, selesToolStripMenuItem, priToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(869, 38);
@@ -173,12 +175,14 @@
             // customerToolStripMenuItem
             // 
             customerToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addCustomerToolStripMenuItem, manageCustomerToolStripMenuItem, listCustomerToolStripMenuItem });
+            customerToolStripMenuItem.Image = Properties.Resources._3225069;
             customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            customerToolStripMenuItem.Size = new Size(118, 34);
+            customerToolStripMenuItem.Size = new Size(134, 34);
             customerToolStripMenuItem.Text = "Customer";
             // 
             // addCustomerToolStripMenuItem
             // 
+            addCustomerToolStripMenuItem.Image = Properties.Resources.Add_Person_40;
             addCustomerToolStripMenuItem.Name = "addCustomerToolStripMenuItem";
             addCustomerToolStripMenuItem.Size = new Size(263, 34);
             addCustomerToolStripMenuItem.Text = "Add Customer";
@@ -186,12 +190,14 @@
             // 
             // manageCustomerToolStripMenuItem
             // 
+            manageCustomerToolStripMenuItem.Image = Properties.Resources.Manage_People;
             manageCustomerToolStripMenuItem.Name = "manageCustomerToolStripMenuItem";
             manageCustomerToolStripMenuItem.Size = new Size(263, 34);
             manageCustomerToolStripMenuItem.Text = "Manage Customer";
             // 
             // listCustomerToolStripMenuItem
             // 
+            listCustomerToolStripMenuItem.Image = Properties.Resources.List_321;
             listCustomerToolStripMenuItem.Name = "listCustomerToolStripMenuItem";
             listCustomerToolStripMenuItem.Size = new Size(263, 34);
             listCustomerToolStripMenuItem.Text = "List Customer";
@@ -224,9 +230,33 @@
             listSuppliersToolStripMenuItem.Text = "List Suppliers";
             listSuppliersToolStripMenuItem.Click += listSuppliersToolStripMenuItem_Click;
             // 
+            // selesToolStripMenuItem
+            // 
+            selesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newBillToolStripMenuItem, allBillsToolStripMenuItem });
+            selesToolStripMenuItem.Image = Properties.Resources._1052815;
+            selesToolStripMenuItem.Name = "selesToolStripMenuItem";
+            selesToolStripMenuItem.Size = new Size(90, 34);
+            selesToolStripMenuItem.Text = "Seles";
+            // 
+            // newBillToolStripMenuItem
+            // 
+            newBillToolStripMenuItem.Image = Properties.Resources._1651965;
+            newBillToolStripMenuItem.Name = "newBillToolStripMenuItem";
+            newBillToolStripMenuItem.Size = new Size(168, 34);
+            newBillToolStripMenuItem.Text = "new Bill";
+            newBillToolStripMenuItem.Click += newBillToolStripMenuItem_Click;
+            // 
+            // allBillsToolStripMenuItem
+            // 
+            allBillsToolStripMenuItem.Image = Properties.Resources._16519651;
+            allBillsToolStripMenuItem.Name = "allBillsToolStripMenuItem";
+            allBillsToolStripMenuItem.Size = new Size(168, 34);
+            allBillsToolStripMenuItem.Text = "All Bills";
+            allBillsToolStripMenuItem.Click += allBillsToolStripMenuItem_Click;
+            // 
             // priToolStripMenuItem
             // 
-            priToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { acountSettingsToolStripMenuItem, logOutToolStripMenuItem });
+            priToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { acountSettingsToolStripMenuItem, logOutToolStripMenuItem, addNewUserToolStripMenuItem });
             priToolStripMenuItem.Image = Properties.Resources.account_settings_64;
             priToolStripMenuItem.Name = "priToolStripMenuItem";
             priToolStripMenuItem.Size = new Size(107, 34);
@@ -246,20 +276,15 @@
             logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
             logOutToolStripMenuItem.Size = new Size(252, 34);
             logOutToolStripMenuItem.Text = "sign_out ";
+            logOutToolStripMenuItem.Click += logOutToolStripMenuItem_Click;
             // 
-            // selesToolStripMenuItem
+            // addNewUserToolStripMenuItem
             // 
-            selesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newBillToolStripMenuItem });
-            selesToolStripMenuItem.Name = "selesToolStripMenuItem";
-            selesToolStripMenuItem.Size = new Size(74, 34);
-            selesToolStripMenuItem.Text = "Seles";
-            // 
-            // newBillToolStripMenuItem
-            // 
-            newBillToolStripMenuItem.Name = "newBillToolStripMenuItem";
-            newBillToolStripMenuItem.Size = new Size(180, 34);
-            newBillToolStripMenuItem.Text = "new Bill";
-            newBillToolStripMenuItem.Click += newBillToolStripMenuItem_Click;
+            addNewUserToolStripMenuItem.Image = Properties.Resources.Add_New_User_721;
+            addNewUserToolStripMenuItem.Name = "addNewUserToolStripMenuItem";
+            addNewUserToolStripMenuItem.Size = new Size(252, 34);
+            addNewUserToolStripMenuItem.Text = "Add new User";
+            addNewUserToolStripMenuItem.Click += addNewUserToolStripMenuItem_Click;
             // 
             // MainForm
             // 
@@ -311,5 +336,7 @@
         private ToolStripMenuItem listSuppliersToolStripMenuItem;
         private ToolStripMenuItem selesToolStripMenuItem;
         private ToolStripMenuItem newBillToolStripMenuItem;
+        private ToolStripMenuItem allBillsToolStripMenuItem;
+        private ToolStripMenuItem addNewUserToolStripMenuItem;
     }
 }

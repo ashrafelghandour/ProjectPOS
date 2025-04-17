@@ -3,68 +3,51 @@
   "WorkspaceRootPath": "E:\\ProjectPOS\\POSDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\customer\\frmaddnewcusomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\customer\\frmaddnewcusomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\entites\\selesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\entites\\selesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|E:\\ProjectPOS\\POSDemo\\posdemo\\screens\\customer\\frmaddnewcusomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\customer\\frmaddnewcusomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\products\\frmclassproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\products\\frmclassproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\suplier\\frmaddnewsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\suplier\\frmaddnewsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\products\\frmaddproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\products\\frmaddproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\suplier\\frmsuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\suplier\\frmsuppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\posdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\posdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\products\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\products\\frmproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|E:\\ProjectPOS\\POSDemo\\posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|E:\\ProjectPOS\\POSDemo\\posdemo\\screens\\customer\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\customer\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbills.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbills.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\customer\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\customer\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|E:\\ProjectPOS\\POSDemo\\posdemo\\screens\\products\\frmaddproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\products\\frmaddproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|e:\\projectpos\\posdemo\\posdemo\\screens\\seles\\frmselesbill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257F7B80-0917-422F-A31A-6D0BCBC9AF2D}|POSDemo\\POSDemo.csproj|solutionrelative:posdemo\\screens\\seles\\frmselesbill.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,198 +69,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "POSDemo\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\MainForm.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs*",
+              "RelativeToolTip": "POSDemo\\Screens\\MainForm.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAawE8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:51:29.634Z",
+              "WhenOpened": "2025-04-17T19:46:02.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SelesBill.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Entites\\SelesBill.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Entites\\SelesBill.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Entites\\SelesBill.cs",
-              "RelativeToolTip": "POSDemo\\Entites\\SelesBill.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "frmSuppliers.cs [Design]",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Suplier\\frmSuppliers.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Suplier\\frmSuppliers.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Suplier\\frmSuppliers.cs [Design]",
+              "RelativeToolTip": "POSDemo\\Screens\\Suplier\\frmSuppliers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:58:26.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T19:41:39.92Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmAddNewCusomer.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAjwFwAAAAJAAAAAAAAAA==",
+              "Title": "frmAddNewSupplier.cs [Design]",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Suplier\\frmAddNewSupplier.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Suplier\\frmAddNewSupplier.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Suplier\\frmAddNewSupplier.cs [Design]",
+              "RelativeToolTip": "POSDemo\\Screens\\Suplier\\frmAddNewSupplier.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:22:04.514Z",
+              "WhenOpened": "2025-04-17T19:41:36.081Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\MainForm.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs [Design]*",
+              "RelativeToolTip": "POSDemo\\Screens\\MainForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:36:01.666Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSelesBills.cs [Design]",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBills.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.cs [Design]*",
+              "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBills.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:35:25.432Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmSelesBills.Designer.cs",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.Designer.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBills.Designer.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.Designer.cs",
+              "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBills.Designer.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAADgv44BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:33:48.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Program.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Program.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Program.cs",
+              "RelativeToolTip": "POSDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:22:15.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmSelesBill.cs",
               "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.cs",
               "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBill.cs",
               "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.cs*",
               "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBill.cs*",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAIwCUBAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAADgv/0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:13:16.889Z",
+              "WhenOpened": "2025-04-17T18:42:23.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmSelesBill.Designer.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
-              "ViewState": "AgIAAI0BAAAAAAAAAAAiwKIBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:24:21.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "frmSelesBill.cs [Design]",
               "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.cs",
               "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBill.cs",
               "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.cs [Design]*",
               "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBill.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T16:05:30.794Z",
+              "WhenOpened": "2025-04-17T18:42:11.251Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\MainForm.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\MainForm.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\MainForm.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwv0gAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:00:15.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmAddNewCusomer.cs [Design]",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs [Design]",
-              "RelativeToolTip": "POSDemo\\Screens\\Customer\\frmAddNewCusomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T12:36:56.804Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\appsettings.json",
-              "RelativeDocumentMoniker": "POSDemo\\appsettings.json",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\appsettings.json",
-              "RelativeToolTip": "POSDemo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-13T10:49:04.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmClassProduct.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmClassProduct.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Products\\frmClassProduct.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmClassProduct.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Products\\frmClassProduct.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEEAAAAHAAAAAAAAAA==",
+              "Title": "frmSelesBills.cs",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBills.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBills.cs*",
+              "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBills.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAADgv1MAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T10:53:33.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "POSDemo.csproj",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\POSDemo.csproj",
-              "RelativeDocumentMoniker": "POSDemo\\POSDemo.csproj",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\POSDemo.csproj",
-              "RelativeToolTip": "POSDemo\\POSDemo.csproj",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-13T10:49:16.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmAddProduct.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAUwIEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T11:24:45.977Z",
+              "WhenOpened": "2025-04-17T09:13:56.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmProducts.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmProducts.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Products\\frmProducts.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmProducts.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Products\\frmProducts.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAhwHQAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "frmSelesBill.Designer.cs",
+              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
+              "RelativeDocumentMoniker": "POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
+              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
+              "RelativeToolTip": "POSDemo\\Screens\\Seles\\frmSelesBill.Designer.cs",
+              "ViewState": "AgIAAJwBAAAAAAAAAAAiwLEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T11:40:28.972Z"
+              "WhenOpened": "2025-04-17T19:22:28.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmCustomer.cs [Design]",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmCustomer.cs [Design]",
-              "RelativeToolTip": "POSDemo\\Screens\\Customer\\frmCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:22:16.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmCustomer.cs",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "RelativeToolTip": "POSDemo\\Screens\\Customer\\frmCustomer.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAADgv0gAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:22:40.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmAddProduct.cs [Design]",
-              "DocumentMoniker": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "RelativeDocumentMoniker": "POSDemo\\Screens\\Products\\frmAddProduct.cs",
-              "ToolTip": "E:\\ProjectPOS\\POSDemo\\POSDemo\\Screens\\Products\\frmAddProduct.cs [Design]",
-              "RelativeToolTip": "POSDemo\\Screens\\Products\\frmAddProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T11:22:22.93Z"
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOMSAAAAAAAAAAAwwPkSAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-17T19:24:24.91Z"
             }
           ]
         }

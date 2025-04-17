@@ -61,6 +61,7 @@
             btSave = new Button();
             errorProvider1 = new ErrorProvider(components);
             custmerBindingSource = new BindingSource(components);
+            btallbills = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -385,6 +386,19 @@
             // 
             custmerBindingSource.DataSource = typeof(Entites.Custmer);
             // 
+            // btallbills
+            // 
+            btallbills.BackColor = Color.Transparent;
+            btallbills.ImageAlign = ContentAlignment.MiddleLeft;
+            btallbills.Location = new Point(693, 715);
+            btallbills.Name = "btallbills";
+            btallbills.Size = new Size(86, 32);
+            btallbills.TabIndex = 267;
+            btallbills.Text = "All Bills";
+            btallbills.TextAlign = ContentAlignment.MiddleRight;
+            btallbills.UseVisualStyleBackColor = false;
+            btallbills.Click += btallbills_Click;
+            // 
             // frmSelesBill
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -392,6 +406,7 @@
             BackgroundImage = Properties.Resources.dfg1;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(883, 777);
+            Controls.Add(btallbills);
             Controls.Add(btSave);
             Controls.Add(tbDiscout);
             Controls.Add(label4);
@@ -463,5 +478,6 @@
         private Button btSave;
         private ErrorProvider errorProvider1;
         private BindingSource custmerBindingSource;
+        private Button btallbills;
     }
 }

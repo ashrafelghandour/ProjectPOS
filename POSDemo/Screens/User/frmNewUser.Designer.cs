@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNewUser));
-            tbpassw = new TextBox();
-            label2 = new Label();
-            label1 = new Label();
+            openFileDialog1 = new OpenFileDialog();
             tbUserName = new TextBox();
-            llSetImage = new LinkLabel();
+            label1 = new Label();
+            label2 = new Label();
+            tbpassw = new TextBox();
             pbPersonImage = new PictureBox();
+            llSetImage = new LinkLabel();
             llRemoveImage = new LinkLabel();
             btSave = new Button();
             btClose = new Button();
@@ -42,32 +43,23 @@
             label3 = new Label();
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
-            openFileDialog1 = new OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)pbPersonImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // tbpassw
+            // openFileDialog1
             // 
-            tbpassw.Location = new Point(38, 186);
-            tbpassw.Margin = new Padding(4, 3, 4, 3);
-            tbpassw.Name = "tbpassw";
-            tbpassw.Size = new Size(183, 23);
-            tbpassw.TabIndex = 45;
+            openFileDialog1.FileName = "openFileDialog1";
             // 
-            // label2
+            // tbUserName
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(35, 155);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(78, 17);
-            label2.TabIndex = 41;
-            label2.Text = "password : ";
+            tbUserName.Location = new Point(38, 105);
+            tbUserName.Margin = new Padding(4, 3, 4, 3);
+            tbUserName.Name = "tbUserName";
+            tbUserName.Size = new Size(183, 23);
+            tbUserName.TabIndex = 37;
             // 
             // label1
             // 
@@ -81,25 +73,25 @@
             label1.TabIndex = 38;
             label1.Text = "User Name :";
             // 
-            // tbUserName
+            // label2
             // 
-            tbUserName.Location = new Point(38, 105);
-            tbUserName.Margin = new Padding(4, 3, 4, 3);
-            tbUserName.Name = "tbUserName";
-            tbUserName.Size = new Size(183, 23);
-            tbUserName.TabIndex = 37;
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(35, 155);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(78, 17);
+            label2.TabIndex = 41;
+            label2.Text = "password : ";
             // 
-            // llSetImage
+            // tbpassw
             // 
-            llSetImage.AutoSize = true;
-            llSetImage.Location = new Point(38, 350);
-            llSetImage.Margin = new Padding(4, 0, 4, 0);
-            llSetImage.Name = "llSetImage";
-            llSetImage.Size = new Size(59, 15);
-            llSetImage.TabIndex = 86;
-            llSetImage.TabStop = true;
-            llSetImage.Text = "Set Image";
-            llSetImage.LinkClicked += llSetImage_LinkClicked;
+            tbpassw.Location = new Point(38, 186);
+            tbpassw.Margin = new Padding(4, 3, 4, 3);
+            tbpassw.Name = "tbpassw";
+            tbpassw.Size = new Size(183, 23);
+            tbpassw.TabIndex = 45;
             // 
             // pbPersonImage
             // 
@@ -114,6 +106,18 @@
             pbPersonImage.SizeMode = PictureBoxSizeMode.StretchImage;
             pbPersonImage.TabIndex = 87;
             pbPersonImage.TabStop = false;
+            // 
+            // llSetImage
+            // 
+            llSetImage.AutoSize = true;
+            llSetImage.Location = new Point(38, 350);
+            llSetImage.Margin = new Padding(4, 0, 4, 0);
+            llSetImage.Name = "llSetImage";
+            llSetImage.Size = new Size(59, 15);
+            llSetImage.TabIndex = 86;
+            llSetImage.TabStop = true;
+            llSetImage.Text = "Set Image";
+            llSetImage.LinkClicked += llSetImage_LinkClicked;
             // 
             // llRemoveImage
             // 
@@ -200,10 +204,6 @@
             pictureBox2.TabIndex = 136;
             pictureBox2.TabStop = false;
             // 
-            // openFileDialog1
-            // 
-            openFileDialog1.FileName = "openFileDialog1";
-            // 
             // frmNewUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -227,6 +227,7 @@
             Name = "frmNewUser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmNewUser";
+            Load += frmNewUser_Load;
             ((System.ComponentModel.ISupportInitialize)pbPersonImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -236,13 +237,13 @@
         }
 
         #endregion
-
-        private TextBox tbpassw;
-        private Label label2;
-        private Label label1;
+        private OpenFileDialog openFileDialog1;
         private TextBox tbUserName;
-        public LinkLabel llSetImage;
+        private Label label1;
+        private Label label2;
+        private TextBox tbpassw;
         public PictureBox pbPersonImage;
+        public LinkLabel llSetImage;
         public LinkLabel llRemoveImage;
         private Button btSave;
         private Button btClose;
@@ -250,6 +251,5 @@
         private Label label3;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
-        private OpenFileDialog openFileDialog1;
     }
 }
